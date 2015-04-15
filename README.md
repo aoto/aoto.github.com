@@ -1,7 +1,1 @@
-# my blog
-
-xxx.
-
-xxx.sdfsdf
-
-test.
+# my personal page.
