@@ -38,6 +38,15 @@ Mobile Web，现在流行叫H5，是将Web与各种移动设备结合。随着�
 
 [Remote Debugging Guide](http://developer.telerik.com/featured/a-concise-guide-to-remote-debugging-on-ios-android-and-windows-phone/)
 
-## Tips
+## 经验
+
+
 [https://github.com/doyoe/trip](https://github.com/doyoe/trip)
 [https://github.com/alanerzhao/doc/blob/master/document/mobile_base.md](https://github.com/alanerzhao/doc/blob/master/document/mobile_base.md)
+
+## 类库/框架
+* [Zepto](http://zeptojs.com/) 接口与使用与jquery基本一致，面向移动端
+* [jQuery Mobile](https://jquerymobile.com/) jQuery Mobile + UI库
+* [FastClick](https://github.com/ftlabs/fastclick) 众所周知，移动端的click响应有300ms延迟，这个库可以便捷又无侵入的解决问题
+* [DeviceJS](https://github.com/matthewhudson/device.js?) 方便的监测设备相关信息
+* [HammerJS](https://github.com/hammerjs/hammer.js/) 各种手势
