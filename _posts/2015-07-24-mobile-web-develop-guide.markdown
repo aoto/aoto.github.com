@@ -28,7 +28,6 @@ Mobile Web，现在流行叫H5，是将Web与各种移动设备结合。随着�
 
 
 ## 开发
-
 [![Chrome DeveloperTools](https://developer.chrome.com/devtools/docs/device-mode-files/device-mode-initial-view.png)](https://developer.chrome.com/devtools/docs/device-mode)
 
 先在PC端开发调试，Chrome是一个很好的选择，DevTools可以模拟各种移动设备，支持横竖屏切换，支持各种移动网络环境。在用真实的移动设备看效果前，在Safari调好，会省不少事。因为Safari和Chrome的差异还是不小的，Chrome的内容渲染引擎Blink是Webkit的一个分支。如果这两个浏览器都没问题，再去Android,iOS上看效果。
@@ -39,12 +38,10 @@ Mobile Web，现在流行叫H5，是将Web与各种移动设备结合。随着�
 [Remote Debugging Guide](http://developer.telerik.com/featured/a-concise-guide-to-remote-debugging-on-ios-android-and-windows-phone/)
 
 ## 经验
-
-
 [https://github.com/doyoe/trip](https://github.com/doyoe/trip)
 [https://github.com/alanerzhao/doc/blob/master/document/mobile_base.md](https://github.com/alanerzhao/doc/blob/master/document/mobile_base.md)
 
-## 类库/框架
+## 类库
 * [Zepto](http://zeptojs.com/) 接口与使用与jquery基本一致，面向移动端
 * [jQuery Mobile](https://jquerymobile.com/) jQuery Mobile + UI库
 * [FastClick](https://github.com/ftlabs/fastclick) 众所周知，移动端的click响应有300ms延迟，这个库可以便捷又无侵入的解决问题
