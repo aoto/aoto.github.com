@@ -1,23 +1,24 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>郁盛杰(aoto)的博客</title>
+</head>
+<body>
+  郁盛杰(aoto)的技术博客:
+  <a href="https://github.com/aoto/aoto.github.com/issues">郁盛杰(aoto)的技术博客</a>
 
-<div class="home">
+  <br>
+  <br>
 
-  <h1 class="page-heading">文章</h1>
+  LinkedIn:
+  <a href="http://www.linkedin.com/profile/view?id=AAIAAA7r0CoBygDOvcOvYqHgpsoYJ0e3NIVkfKs&trk=nav_responsive_tab_profile_pic">LinkedIn</a>
+  
+  <br>
+  <br>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  Email:
+  <a href="mailto:aoto_yu@163.com">aoto_yu@163.com</a>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">订阅</a></p>
-
-</div>
+</body>
+</html>
