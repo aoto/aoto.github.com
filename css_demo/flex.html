@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+    .flex {
+      height: 800px;
+      border:1px solid;
+      display: flex;
+      flex-direction: row-reverse;
+      flex-wrap: wrap-reverse;
+      flex-flow: row-reverse wrap-reverse;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+    }
+
+    .flex > div:nth-child(6) {
+      order: 100;
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
+
+    .flex > div:nth-child(9) {
+      flex-grow: 2;
+      flex-shrink: 2;
+    }
+
+    .flex > div:nth-child(1) {
+      align-self: flex-end;
+    }
+  </style>
+</head>
+<body>
+<div class="flex">
+  <div style="height:200px;background:yellow;">111111111111</div>
+  <div style="height:100px;background:red;">2222222222</div>
+  <div style="height:250px;background:green;">3333333333</div>
+  <div style="height:200px;background:yellow;">44444444444</div>
+  <div style="height:100px;background:red;">555555555555</div>
+  <div style="height:300px;background:grey;">666666</div>
+  <div style="height:200px;background:yellow;">77777</div>
+  <div style="height:100px;background:red;">888888</div>
+  <div style="height:300px;background:green;">99999999999999999</div>
+</div>
+</body>
+</html>

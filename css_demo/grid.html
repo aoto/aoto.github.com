@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+    .grid{
+      width: 300px;
+      height: 400px;
+      display: grid;
+      border: 1px solid;
+      grid-template-columns: 40px 50px auto 50px 40px;
+      grid-template-rows: 25% 100px auto;
+      grid-column-gap: 10px;
+      grid-row-gap: 15px;
+      justify-content: stretch;
+      align-content: stretch;
+      align-items: stretch;
+    }
+
+    .grid .item {
+      border: 1px solid;
+    }
+
+    .grid .item:nth-child(4) {
+      grid-column-start: 2;
+      grid-column-end: five;
+      grid-row-start: row1-start;
+      grid-row-end: 3;
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+<div class="grid">
+  <div class="item">2</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">1</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+  <div class="item">5</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">2</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">1</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+  <div class="item">5</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+  <div class="item">3</div>
+</div>
+</body>
+</html>
